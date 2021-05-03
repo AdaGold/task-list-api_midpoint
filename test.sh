@@ -28,4 +28,4 @@ if [ -f /.dockerenv ]; then
     done
 fi
 
-pytest
+pytest tests/test_wave_01.py tests/test_wave_02.py tests/test_wave_03.py
